@@ -6,13 +6,14 @@ import test.JSONObjectKeyIn;
 import test.structArrayInit;
 import test.scopeOrder;
 import test.testTemplate;
+import test.JSONInitType;
 
 int main(string[] argv)
 {
 
     try
     {
-        Test test = new testTemplate;
+        Test test = new JSONInitType;
 
         test.test();
     }

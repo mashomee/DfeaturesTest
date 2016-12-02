@@ -206,6 +206,7 @@
  </Config>
  <Folder name="DfeaturesTest">
   <Folder name="test">
+   <File path="test\JSONInitType.d" />
    <File path="test\JSONObjectKeyIn.d" />
    <File path="test\scopeOrder.d" />
    <File path="test\stringcanbenull.d" />
