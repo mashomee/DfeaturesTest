@@ -8,13 +8,14 @@ import test.scopeOrder;
 import test.testTemplate;
 import test.JSONInitType;
 import test.DiffCstringDstring;
+import test.opAssignAndtoString;
 
 int main(string[] argv)
 {
 
     try
     {
-        Test test = new DiffCstringDstring;
+        Test test = new opAssignAndtoString;
 
         test.test();
     }
