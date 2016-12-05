@@ -7,13 +7,14 @@ import test.structArrayInit;
 import test.scopeOrder;
 import test.testTemplate;
 import test.JSONInitType;
+import test.DiffCstringDstring;
 
 int main(string[] argv)
 {
 
     try
     {
-        Test test = new JSONInitType;
+        Test test = new DiffCstringDstring;
 
         test.test();
     }
