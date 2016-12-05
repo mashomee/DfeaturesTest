@@ -9,13 +9,14 @@ import test.testTemplate;
 import test.JSONInitType;
 import test.DiffCstringDstring;
 import test.opAssignAndtoString;
+import test.firstParameter;
 
 int main(string[] argv)
 {
 
     try
     {
-        Test test = new opAssignAndtoString;
+        Test test = new firstParameter;
 
         test.test();
     }

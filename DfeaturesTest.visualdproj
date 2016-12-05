@@ -207,6 +207,7 @@
  <Folder name="DfeaturesTest">
   <Folder name="test">
    <File path="test\DiffCstringDstring.d" />
+   <File path="test\firstParameter.d" />
    <File path="test\JSONInitType.d" />
    <File path="test\JSONObjectKeyIn.d" />
    <File path="test\opAssignAndtoString.d" />
