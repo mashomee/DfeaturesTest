@@ -10,14 +10,18 @@ import test.JSONInitType;
 import test.DiffCstringDstring;
 import test.opAssignAndtoString;
 import test.firstParameter;
+import std.string;
+import std.array;
+//import test.testSortAArray;
+import test.testdebugFacility;
 
 int main(string[] argv)
 {
 
     try
     {
-        Test test = new firstParameter;
-
+        Test test = new testdebugFacility;
+        //testHere();
         test.test();
     }
     catch(Throwable error)
@@ -34,3 +38,9 @@ void pause()
     string line = stdin.readln();
 }
 
+void testHere()
+{
+    string testStr = "afecda-asdf;";
+    testStr = replace(testStr, ";", "','");
+    writeln(format("sql in list: '%s'", testStr));
+}
