@@ -1,12 +1,14 @@
 import std.stdio;
 
+import test.Test;
 import test.stringcanbenull;
 import test.JSONObjectKeyIn;
+import test.structArrayInit;
 
 int main(string[] argv)
 {
     
-    JSONObjectKeyIn test = new JSONObjectKeyIn;
+    Test test = new structArrayInit;
 
     test.test();
 

@@ -208,6 +208,7 @@
   <Folder name="test">
    <File path="test\JSONObjectKeyIn.d" />
    <File path="test\stringcanbenull.d" />
+   <File path="test\structArrayInit.d" />
    <File path="test\Test.d" />
   </Folder>
   <File path="main.d" />
