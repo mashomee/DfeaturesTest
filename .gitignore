@@ -45,3 +45,15 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+
+# vs2013 compiling D immediate files
+.build
+.lnkarg
+.dep
+.exe_cv
+.lnkdep
+.map
+.obj
+.pdb
+.tlog
+.bak
