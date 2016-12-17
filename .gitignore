@@ -57,3 +57,12 @@ Temporary Items
 .pdb
 .tlog
 .bak
+*.tlog
+*.dep
+Debug/DfeaturesTest.lnkdep
+*.map
+Debug/DfeaturesTest.obj
+*.pdb
+Debug/DfeaturesTest.build
+*.lnkarg
+*.bak
