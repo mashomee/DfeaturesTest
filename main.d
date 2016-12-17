@@ -16,3 +16,4 @@ void pause()
 {
     string line = stdin.readln();
 }
+
