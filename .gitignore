@@ -66,3 +66,7 @@ Debug/DfeaturesTest.obj
 Debug/DfeaturesTest.build
 *.lnkarg
 *.bak
+*.exe_cv
+Debug/DfeaturesTest.build.cmd
+*.json
+Debug/DfeaturesTest.buildlog.html
