@@ -1,5 +1,5 @@
 <DProject>
- <ProjectGuid>{F9A5B8D5-9053-497B-9C02-8F2C86A02AE0}</ProjectGuid>
+ <ProjectGuid>{7685914A-E386-46C8-A2DF-A63A7179CA7B}</ProjectGuid>
  <Config name="Debug" platform="Win32">
   <obj>0</obj>
   <link>0</link>
@@ -204,12 +204,7 @@
   <postBuildCommand />
   <filesToClean>*.obj;*.cmd;*.build;*.json;*.dep</filesToClean>
  </Config>
- <Folder name="DfeaturesTest">
-  <Folder name="test">
-   <File path="test\JSONObjectKeyIn.d" />
-   <File path="test\stringcanbenull.d" />
-   <File path="test\Test.d" />
-  </Folder>
+ <Folder name="testMysqlOdbc">
   <File path="main.d" />
  </Folder>
 </DProject>

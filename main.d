@@ -1,10 +1,12 @@
 import std.stdio;
 
 import test.stringcanbenull;
+import test.JSONObjectKeyIn;
+
 int main(string[] argv)
 {
     
-    stringcanbenull test = new stringcanbenull;
+    JSONObjectKeyIn test = new JSONObjectKeyIn;
 
     test.test();
 
