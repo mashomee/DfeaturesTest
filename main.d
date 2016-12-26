@@ -4,13 +4,21 @@ import test.Test;
 import test.stringcanbenull;
 import test.JSONObjectKeyIn;
 import test.structArrayInit;
+import test.scopeOrder;
 
 int main(string[] argv)
 {
-    
-    Test test = new structArrayInit;
 
-    test.test();
+    try
+    {
+        Test test = new scopeOrder;
+
+        test.test();
+    }
+    catch(Throwable error)
+    {
+        writeln(error.toString());
+    }
 
     pause();
     return 0;
