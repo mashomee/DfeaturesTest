@@ -5,13 +5,14 @@ import test.stringcanbenull;
 import test.JSONObjectKeyIn;
 import test.structArrayInit;
 import test.scopeOrder;
+import test.testTemplate;
 
 int main(string[] argv)
 {
 
     try
     {
-        Test test = new scopeOrder;
+        Test test = new testTemplate;
 
         test.test();
     }

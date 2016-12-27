@@ -211,6 +211,7 @@
    <File path="test\stringcanbenull.d" />
    <File path="test\structArrayInit.d" />
    <File path="test\Test.d" />
+   <File path="test\testTemplate.d" />
   </Folder>
   <File path="main.d" />
  </Folder>
