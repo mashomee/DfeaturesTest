@@ -14,13 +14,14 @@ import std.string;
 import std.array;
 //import test.testSortAArray;
 import test.testdebugFacility;
+import test.AssociateArrayInitialization;
 
 int main(string[] argv)
 {
 
     try
     {
-        Test test = new testdebugFacility;
+        Test test = new AssociateArrayInitialization;
         //testHere();
         test.test();
     }
